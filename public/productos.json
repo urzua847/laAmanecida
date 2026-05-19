@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bandeja 30 Huevos — Jumbo",
+    "descripcion": "Los huevos más grandes de campo. Perfectos para desayunos y recetas que requieren más volumen.",
+    "precio": 5500,
+    "imagen": "/images/bandeja-jumbo.png",
+    "disponible": true,
+    "categoria": "bandeja",
+    "calibre": "Jumbo"
+  },
+  {
+    "id": 2,
+    "nombre": "Bandeja 30 Huevos — Super Extra",
+    "descripcion": "Huevos de campo de calibre superior, ideales para el consumo diario familiar.",
+    "precio": 5000,
+    "imagen": "/images/bandeja-super-extra.png",
+    "disponible": true,
+    "categoria": "bandeja",
+    "calibre": "Super Extra"
+  },
+  {
+    "id": 3,
+    "nombre": "Bandeja 30 Huevos — Extra Color",
+    "descripcion": "Mezcla de huevos marrones y crema de calibre extra. Frescos y naturales de campo.",
+    "precio": 4800,
+    "imagen": "/images/bandeja-extra-color.png",
+    "disponible": true,
+    "categoria": "bandeja",
+    "calibre": "Extra Color"
+  },
+  {
+    "id": 4,
+    "nombre": "Bandeja 30 Huevos — Primera",
+    "descripcion": "Huevos de calibre primera, excelente relación calidad-precio para uso cotidiano.",
+    "precio": 4200,
+    "imagen": "/images/bandeja-primera.png",
+    "disponible": true,
+    "categoria": "bandeja",
+    "calibre": "Primera"
+  },
+  {
+    "id": 5,
+    "nombre": "Bandeja 30 Huevos — Segunda",
+    "descripcion": "Huevos de calibre segunda, ideales para repostería, pasteles y cocina en general.",
+    "precio": 3800,
+    "imagen": "/images/bandeja-segunda.png",
+    "disponible": true,
+    "categoria": "bandeja",
+    "calibre": "Segunda"
+  },
+  {
+    "id": 6,
+    "nombre": "Caja 12 Bandejas — Jumbo",
+    "descripcion": "Caja mayorista con 12 bandejas de 30 huevos jumbo. Ideal para negocios, panaderías y grandes familias.",
+    "precio": 62000,
+    "imagen": "/images/caja-jumbo.png",
+    "disponible": true,
+    "categoria": "caja",
+    "calibre": "Jumbo"
+  },
+  {
+    "id": 7,
+    "nombre": "Caja 12 Bandejas — Super Extra",
+    "descripcion": "Caja mayorista con 12 bandejas de 30 huevos super extra. La mejor opción para compra en volumen.",
+    "precio": 57000,
+    "imagen": "/images/caja-super-extra.png",
+    "disponible": true,
+    "categoria": "caja",
+    "calibre": "Super Extra"
+  }
+]
