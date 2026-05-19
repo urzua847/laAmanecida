@@ -1,72 +1,73 @@
 [
   {
     "id": 1,
-    "nombre": "Bandeja 30 Huevos — Jumbo",
-    "descripcion": "Los huevos más grandes de campo. Perfectos para desayunos y recetas que requieren más volumen.",
-    "precio": 5500,
+    "nombre": "Jumbo",
+    "descripcion": "Los huevos más grandes. Perfectos para desayunos abundantes y recetas que requieren mayor volumen. Caja de 100 unidades.",
+    "precio": 33000,
+    "unidades": 100,
     "imagen": "/images/bandeja-jumbo.png",
     "disponible": true,
-    "categoria": "bandeja",
+    "categoria": "100u",
     "calibre": "Jumbo"
   },
   {
     "id": 2,
-    "nombre": "Bandeja 30 Huevos — Super Extra",
-    "descripcion": "Huevos de campo de calibre superior, ideales para el consumo diario familiar.",
-    "precio": 5000,
+    "nombre": "Súper",
+    "descripcion": "Huevos de calibre súper, ideales para el consumo diario familiar. Caja de 100 unidades, excelente precio.",
+    "precio": 27000,
+    "unidades": 100,
     "imagen": "/images/bandeja-super-extra.png",
     "disponible": true,
-    "categoria": "bandeja",
-    "calibre": "Super Extra"
+    "categoria": "100u",
+    "calibre": "Súper"
   },
   {
     "id": 3,
-    "nombre": "Bandeja 30 Huevos — Extra Color",
-    "descripcion": "Mezcla de huevos marrones y crema de calibre extra. Frescos y naturales de campo.",
-    "precio": 4800,
-    "imagen": "/images/bandeja-extra-color.png",
+    "nombre": "Extra Blanco",
+    "descripcion": "Huevos blancos de calibre extra. Ideales para repostería y cocina. Caja de 180 unidades.",
+    "precio": 39000,
+    "unidades": 180,
+    "imagen": "/images/bandeja-segunda.png",
     "disponible": true,
-    "categoria": "bandeja",
-    "calibre": "Extra Color"
+    "categoria": "180u",
+    "calibre": "Extra Blanco"
   },
   {
     "id": 4,
-    "nombre": "Bandeja 30 Huevos — Primera",
-    "descripcion": "Huevos de calibre primera, excelente relación calidad-precio para uso cotidiano.",
-    "precio": 4200,
-    "imagen": "/images/bandeja-primera.png",
+    "nombre": "Extra Color",
+    "descripcion": "Huevos de color calibre extra. Frescos y naturales de campo, apreciados por su sabor superior. Caja de 180 unidades.",
+    "precio": 41000,
+    "unidades": 180,
+    "imagen": "/images/bandeja-extra-color.png",
     "disponible": true,
-    "categoria": "bandeja",
-    "calibre": "Primera"
+    "categoria": "180u",
+    "calibre": "Extra Color"
   },
   {
     "id": 5,
-    "nombre": "Bandeja 30 Huevos — Segunda",
-    "descripcion": "Huevos de calibre segunda, ideales para repostería, pasteles y cocina en general.",
-    "precio": 3800,
-    "imagen": "/images/bandeja-segunda.png",
+    "nombre": "Primera Blanco",
+    "descripcion": "Huevos blancos primera calidad. Precio escalonado: 1-10 cajas $35.000 · 11-30 cajas $34.500 · 31+ cajas $34.000. Caja 180 u.",
+    "precio": 35000,
+    "unidades": 180,
+    "imagen": "/images/bandeja-primera.png",
     "disponible": true,
-    "categoria": "bandeja",
-    "calibre": "Segunda"
+    "categoria": "180u",
+    "calibre": "Primera Blanco",
+    "precioEscalonado": [
+      { "rango": "1 a 10 cajas", "precio": 35000 },
+      { "rango": "11 a 30 cajas", "precio": 34500 },
+      { "rango": "31 o más cajas", "precio": 34000 }
+    ]
   },
   {
     "id": 6,
-    "nombre": "Caja 12 Bandejas — Jumbo",
-    "descripcion": "Caja mayorista con 12 bandejas de 30 huevos jumbo. Ideal para negocios, panaderías y grandes familias.",
-    "precio": 62000,
-    "imagen": "/images/caja-jumbo.png",
+    "nombre": "Primera Color",
+    "descripcion": "Huevos de color primera calidad. La mejor elección para quienes valoran sabor y frescura superior. Caja de 180 unidades.",
+    "precio": 38000,
+    "unidades": 180,
+    "imagen": "/images/bandeja-primera.png",
     "disponible": true,
-    "categoria": "caja",
-    "calibre": "Jumbo"
-  },
-  {
-    "id": 7,
-    "nombre": "Caja 12 Bandejas — Super Extra",
-    "descripcion": "Caja mayorista con 12 bandejas de 30 huevos super extra. La mejor opción para compra en volumen.",
-    "precio": 57000,
-    "imagen": "/images/caja-super-extra.png",
-    "disponible": true,
-    "categoria": "caja",
-    "calibre": "Super Extra"
+    "categoria": "180u",
+    "calibre": "Primera Color"
   }
 ]
