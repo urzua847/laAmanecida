@@ -7,7 +7,7 @@ const VALORES = [
 
 export default function About() {
   return (
-    <section id="nosotros" className="relative py-24 sm:py-32 overflow-hidden">
+    <section id="nosotros" className="relative py-28 lg:py-36 overflow-hidden">
       {/* Subtle warm glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-950/8 to-transparent pointer-events-none" />
 
@@ -56,22 +56,24 @@ export default function About() {
             </div>
 
             {/* Contact cards */}
-            <div className="flex flex-col gap-3 mt-2">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 mt-4 w-full">
               {[
-                { icon: '📍', text: 'Penco, Región del Biobío, Chile',       href: null },
+                { icon: '📍', text: 'Penco, Biobío',                         href: null },
                 { icon: '📱', text: '+56 9 8883 2514',                        href: 'https://wa.me/56988832514' },
                 { icon: '📸', text: '@laamanecidahuevos',                     href: 'https://www.instagram.com/laamanecidahuevos' },
               ].map((c) => (
-                <div key={c.text} className="glass-warm rounded-xl px-4 py-3 flex items-center gap-3">
+                <div key={c.text} className="glass-warm rounded-xl p-3 flex flex-row items-center gap-2.5 transition-all duration-300 hover:border-orange-500/30">
                   <span className="text-xl flex-shrink-0">{c.icon}</span>
-                  {c.href ? (
-                    <a href={c.href} target="_blank" rel="noopener noreferrer"
-                      className="text-orange-100/70 hover:text-orange-300 transition-colors text-sm font-medium underline underline-offset-2">
-                      {c.text}
-                    </a>
-                  ) : (
-                    <span className="text-orange-100/70 text-sm font-medium">{c.text}</span>
-                  )}
+                  <div className="min-w-0 flex-1 leading-tight">
+                    {c.href ? (
+                      <a href={c.href} target="_blank" rel="noopener noreferrer"
+                        className="text-orange-100/70 hover:text-orange-300 transition-colors text-[11px] font-bold uppercase tracking-wider block truncate">
+                        {c.text}
+                      </a>
+                    ) : (
+                      <span className="text-orange-100/70 text-[11px] font-bold uppercase tracking-wider block">{c.text}</span>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
@@ -79,23 +81,23 @@ export default function About() {
 
           {/* Right: image */}
           <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-md">
-              <div className="relative overflow-hidden rounded-3xl aspect-square">
+            <div className="relative w-full max-w-lg lg:max-w-xl">
+              <div className="relative overflow-hidden rounded-3xl aspect-[4/3] shadow-2xl">
                 <img
                   src="./images/hero-bg.png"
                   alt="Granja La Amanecida — Penco, Biobío"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:scale-102 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent" />
-                <div className="absolute bottom-5 left-5 right-5">
-                  <p className="text-white font-bold text-xl uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>
+                <div className="absolute inset-0 bg-gradient-to-t from-stone-955/80 via-transparent to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <p className="text-white font-bold text-2xl uppercase tracking-wide" style={{ fontFamily: 'Oswald, sans-serif' }}>
                     La Amanecida 🐔
                   </p>
-                  <p className="text-orange-300 text-sm mt-0.5">Penco, Biobío — Chile</p>
+                  <p className="text-orange-300 font-medium text-sm mt-0.5">Penco, Biobío — Chile</p>
                 </div>
               </div>
               {/* Decorative offset border */}
-              <div className="absolute -bottom-3 -right-3 w-full h-full rounded-3xl border border-orange-500/20 pointer-events-none -z-10" />
+              <div className="absolute -bottom-4 -right-4 w-full h-full rounded-3xl border border-orange-500/25 pointer-events-none -z-10 shadow-lg" />
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@ export default function Navbar({ onCartOpen }) {
       }`}
     >
       {/* ── Main bar ── */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-10 lg:px-16">
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
@@ -61,7 +61,7 @@ export default function Navbar({ onCartOpen }) {
             <img
               src="./images/logo.png"
               alt="La Amanecida"
-              className="w-11 h-11 object-contain flex-shrink-0 group-hover:scale-105 transition-transform duration-300"
+              className="w-11 h-11 object-cover rounded-full flex-shrink-0 group-hover:scale-105 transition-transform duration-300 bg-white border border-orange-500/25 p-0.5 shadow-md shadow-orange-500/20"
             />
             <div className="hidden sm:block leading-tight min-w-0">
               <p

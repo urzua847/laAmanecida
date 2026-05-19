@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src="./images/logo.png" alt="La Amanecida" className="w-12 h-12 object-contain flex-shrink-0" />
+              <img src="./images/logo.png" alt="La Amanecida" className="w-12 h-12 object-cover rounded-full flex-shrink-0 bg-white border border-orange-500/25 p-0.5 shadow-md shadow-orange-500/10" />
               <div>
                 <p
                   className="gradient-text font-bold text-lg uppercase tracking-wider leading-none"

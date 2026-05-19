@@ -5,7 +5,7 @@
     "descripcion": "Los huevos más grandes. Perfectos para desayunos abundantes y recetas que requieren mayor volumen. Caja de 100 unidades.",
     "precio": 33000,
     "unidades": 100,
-    "imagen": "/images/bandeja-jumbo.png",
+    "imagen": "./images/bandeja-jumbo.png",
     "disponible": true,
     "categoria": "100u",
     "calibre": "Jumbo"
@@ -16,7 +16,7 @@
     "descripcion": "Huevos de calibre súper, ideales para el consumo diario familiar. Caja de 100 unidades, excelente precio.",
     "precio": 27000,
     "unidades": 100,
-    "imagen": "/images/bandeja-super-extra.png",
+    "imagen": "./images/bandeja-super-extra.png",
     "disponible": true,
     "categoria": "100u",
     "calibre": "Súper"
@@ -27,7 +27,7 @@
     "descripcion": "Huevos blancos de calibre extra. Ideales para repostería y cocina. Caja de 180 unidades.",
     "precio": 39000,
     "unidades": 180,
-    "imagen": "/images/bandeja-segunda.png",
+    "imagen": "./images/bandeja-segunda.png",
     "disponible": true,
     "categoria": "180u",
     "calibre": "Extra Blanco"
@@ -38,7 +38,7 @@
     "descripcion": "Huevos de color calibre extra. Frescos y naturales de campo, apreciados por su sabor superior. Caja de 180 unidades.",
     "precio": 41000,
     "unidades": 180,
-    "imagen": "/images/bandeja-extra-color.png",
+    "imagen": "./images/bandeja-extra-color.png",
     "disponible": true,
     "categoria": "180u",
     "calibre": "Extra Color"
@@ -49,7 +49,7 @@
     "descripcion": "Huevos blancos primera calidad. Precio escalonado: 1-10 cajas $35.000 · 11-30 cajas $34.500 · 31+ cajas $34.000. Caja 180 u.",
     "precio": 35000,
     "unidades": 180,
-    "imagen": "/images/bandeja-primera.png",
+    "imagen": "./images/bandeja-primera.png",
     "disponible": true,
     "categoria": "180u",
     "calibre": "Primera Blanco",
@@ -65,7 +65,7 @@
     "descripcion": "Huevos de color primera calidad. La mejor elección para quienes valoran sabor y frescura superior. Caja de 180 unidades.",
     "precio": 38000,
     "unidades": 180,
-    "imagen": "/images/bandeja-primera.png",
+    "imagen": "./images/bandeja-primera.png",
     "disponible": true,
     "categoria": "180u",
     "calibre": "Primera Color"

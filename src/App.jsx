@@ -3,6 +3,7 @@ import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Catalog from './components/Catalog';
+import Formats from './components/Formats';
 import About from './components/About';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
@@ -20,6 +21,7 @@ export default function App() {
         <main>
           <Hero />
           <Catalog />
+          <Formats />
           <About />
         </main>
 

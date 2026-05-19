@@ -39,7 +39,7 @@ export default function Hero() {
           <img
             src="./images/logo.png"
             alt="Logo La Amanecida"
-            className="w-28 h-28 sm:w-36 sm:h-36 object-contain drop-shadow-2xl animate-logo-float mx-auto"
+            className="w-28 h-28 sm:w-36 sm:h-36 object-cover rounded-full drop-shadow-2xl animate-logo-float mx-auto bg-white border-2 border-orange-500/25 p-1 shadow-xl shadow-orange-500/10"
           />
         </div>
 
