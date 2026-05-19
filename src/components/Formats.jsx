@@ -19,16 +19,16 @@ const FORMATOS = [
   },
   {
     id: 'caja',
-    titulo: 'La Caja de Distribución',
+    titulo: 'El Fardo de Distribución',
     subtitulo: 'Ideal para Negocios, Repostería & Familias Grandes',
     cantidad: '100 o 180 Unidades',
     imagen: './images/caja_huevos_distribucion.png',
-    descripcion: 'Caja de cartón ultra-resistente diseñada para el transporte seguro de huevos de campo. Contiene bandejas apiladas de manera compacta, reduciendo el riesgo de rotura. Perfecta para almacenes, panaderías, pastelerías y familias de alto consumo.',
+    descripcion: 'Formato mayorista profesional que consiste en bandejas apiladas verticalmente y selladas herméticamente en film plástico transparente de alta resistencia (termosellado). Este empaque compacto e impermeable protege los huevos y facilita un transporte sumamente seguro. Es la elección preferida por almacenes, panaderías, pastelerías y locales comerciales.',
     caracteristicas: [
-      'Caja reforzada para transporte pesado',
-      'Contiene bandejas interiores de 30 unidades',
-      'Precios preferenciales y escalonados',
-      'Fácil apilamiento y almacenamiento a gran escala'
+      'Termosellado hermético con film plástico impermeable',
+      'Bandejas de 30 unidades apiladas y listas para usar',
+      'Precios mayoristas y preferenciales escalonados',
+      'Fácil y seguro de apilar en bodegas o locales'
     ],
     badge: 'Formato Mayorista / Comercial',
     colorTheme: 'from-amber-600/20 to-yellow-600/5 border-amber-500/30'
@@ -87,7 +87,7 @@ export default function Formats() {
                 Formato
               </span>
               <span className="text-lg leading-tight uppercase font-semibold">
-                {f.id === 'bandeja' ? '🥚 Bandeja (30u)' : '📦 Caja (100u / 180u)'}
+                {f.id === 'bandeja' ? '🥚 Bandeja (30u)' : '📦 Fardo / Caja (100u / 180u)'}
               </span>
             </button>
           ))}
